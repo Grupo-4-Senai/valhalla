@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Viking</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #2E1A12; /* Marrom escuro inspirado em madeira Viking */
+            color: #e8daab; /* Dourado nórdico */
+            font-family: 'Uncial Antiqua', cursive;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #181818;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .produto {
+            background-color: #181818;
+            box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: 50%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px #000000;
+        }
+        .produto h4 {
+            margin: 10px 0;
+            text-shadow: 0px 0px 5px #eeeeee;
+        }
+        footer {
+            background-color: #181818;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .produto:hover{
+            transition: 1s;
+           background-color: #000000;
+           padding: 12px;
+        }
+        .botao button {
+            position: absolute;
+            top: 110px;
+            left: 5px;
+            width: 50px;
+            height: 500px;
+            background-color: #181818;
+            color: #e8daab;
+            border: none;
+            border-radius: 20px;
+        }
+        .botao button:hover{
+            transition: 1s;
+            background-color: #131313;
+            color: aliceblue;
+        }
+        .botao2 button:hover{
+            transition: 1s;
+            background-color: #131313;
+            color: aliceblue;
+        }
+        .botao2 button{
+            position: absolute;
+            top: 110px;
+            right: 5px;
+            width: 50px;
+            height: 500px;
+            background-color: #181818;
+            color: #e8daab;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        menu
+    </header>
+    
+    <div class="container">
+        <div class="produto">
+            <img src="imgs\Yggdrasil.jpg" alt="Produto 1">
+            <h4>Preço: R$ 10,00</h4>
+            <h4>yggdrasilr</h4>
+        </div>
+        <div class="produto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAvV5h2or8e65Y8UnYgH5XwtV6wPzUZYzDQ&s" alt="Produto 2">
+            <h4>Preço: R$ 50,00</h4>
+            <h4>drik nordico</h4>
+        </div>
+        <div class="produto">
+            <img src="imgs\Bifrost.jpg" alt="Produto 3">
+            <h4>Preço: R$ 70,00</h4>
+            <h4>bifrost</h4>
+        </div>
+        <div class="produto">
+            <img src="imgs\bebidas.jpg" alt="Produto 3">
+            <h4>Preço: R$ 10,00</h4>
+            <h4>Descrição:suco poção </h4>
+        </div>
+       <div class="botao">
+        <a href="index.html"><button>voltar</button></a>
+    </div>
+    <div class="botao2">
+        <a href="index.html"><button>next</button></a>
+    </div>
+    
+    </div>
+    
+    
+</body>
+</html>

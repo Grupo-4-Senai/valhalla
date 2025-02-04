@@ -1,0 +1,125 @@
+body {
+    background-color: #2E1A12; /* Marrom escuro inspirado em madeira Viking */
+    color: #D4AF37; /* Dourado nórdico */
+    font-family: 'Uncial Antiqua', cursive;
+    overflow: hidden;
+}
+
+ section img{
+    width: 300px;
+    height: 300px;
+}
+
+ul {
+   
+    list-style-type: none;
+    margin: 200px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 600;
+    background-color: #2b2b2d;
+    z-index: 1000;
+    font-family: "Cormorant Unicase", serif;
+    font-size: large;
+    border-radius: 5px;
+  }
+  ul{
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+  }
+  ul:hover{
+    transition:1s all;
+    background-color: #181818;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fffd9e;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  li a:hover:not(.active) {
+    transition:1s all;
+    background-color:#444444 ;
+  }
+  
+  .active {
+    background-color:#E0C097;
+    color: #3c3c3c;
+  }
+h2 {
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    
+}
+.title{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+.fx1 img{
+    width: 170px;
+    animation:intro 3s normal;
+    position: absolute;
+    top: 200px;
+}
+.fx2 img{
+    width: 270px;
+    animation:intro 2s normal;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+.fx3 img{
+    width: 230px;
+    animation:intro 2s normal;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.fx4 img{
+    width: 170px;
+    animation:intro 3s normal;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+.fx5 img{
+    width: 270px;
+    animation:intro 2s normal;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+}
+
+
+@keyframes intro{
+    0%{
+        position: absolute;
+        top: 1000px;
+        filter: blur(35px)
+        
+    }
+    50%{
+         top: ;
+         filter: blur(0px);
+    }
+
+}
